@@ -14,7 +14,7 @@
 static UIColor *messageCellLightColor;
 static UIColor *messageCellDarkColor;
 static UIColor *messageCellDynamicColor;
-// static float profile_radius = 12.0F;
+static float profile_radius = 12.0F;
 static float chat_area_radius = 10.0F;
 
 static BOOL isDiscordDarkMode() {
