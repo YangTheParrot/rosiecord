@@ -135,7 +135,7 @@ class Inject extends Colors {
                 ? (item !== (item.includes("Development") 
                     ? "Enmity.Development.Official.deb" 
                     : "Enmity.deb")) 
-                : (item !== "K2genmity.Development.deb")
+                : (item !== "K2genmity.deb")
         })
 
         const stdoutIpas = await M.get(`ls ${GLOBAL_DIST_DIR}`);
