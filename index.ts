@@ -134,7 +134,7 @@ class Inject extends Colors {
             return process.argv[2] == "k2genmity" 
                 ? (item !== (item.includes("Development") 
                     ? "Enmity.Development.Official.deb" 
-                    : "Enmity.deb")) 
+                    : "Enmity.Development.deb")) 
                 : (item !== "K2genmity.deb")
         })
 
